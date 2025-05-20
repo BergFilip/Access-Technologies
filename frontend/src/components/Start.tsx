@@ -5,7 +5,7 @@ const slides  = [
     {
         h1: "Profesjonalny montaż systemów bezpieczeństwa",
         h2: "Dla domu i firmy",
-        bg: "/src/assets/start1.jpg",
+        bg: "Access-Technologies/frontend/src/assets/start1.jpg",
     },
     {
         h1: "Nowoczesne rozwiązania zabezpieczeń",
