@@ -5,17 +5,17 @@ const slides  = [
     {
         h1: "Profesjonalny montaż systemów bezpieczeństwa",
         h2: "Dla domu i firmy",
-        bg: "Access-Technologies/frontend/src/assets/start1.jpg",
+        bg: "./frontend/src/assets/start1.jpg",
     },
     {
         h1: "Nowoczesne rozwiązania zabezpieczeń",
         h2: "Skrojone na miarę Twoich potrzeb",
-        bg: "/src/assets/start2.webp",
+        bg: "./frontend/src//assets/start2.webp",
     },
     {
         h1: "Monitoring 24/7 z gwarancją jakości",
         h2: "Bezpieczeństwo, na które możesz liczyć",
-        bg: "/src/assets/start3.jpg",
+        bg: "./frontend/src//assets/start3.jpg",
     },
 ];
 
