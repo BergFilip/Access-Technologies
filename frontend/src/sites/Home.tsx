@@ -34,6 +34,10 @@ function Home(){
                 <Contact/>
             </section>
 
+            <section className={"empty"} id={"empty"}>
+
+            </section>
+
         </section>
     )
 }

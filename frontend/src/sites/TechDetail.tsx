@@ -1,4 +1,7 @@
-import { useParams } from "react-router-dom";
+import { useParams, useLocation  } from "react-router-dom";
+import { useEffect } from "react";
+import { HashLink,  } from "react-router-hash-link";
+import "../styles/sites/TechDetail.scss";
 
 const techDetails = {
     ssw: {
@@ -149,6 +152,7 @@ const techDetails = {
 
 function TechDetail() {
     const { slug } = useParams();
+    const location = useLocation();
 
     if (!slug || !(slug in techDetails)) {
         return <p>Technologia nie znaleziona.</p>;
@@ -156,9 +160,23 @@ function TechDetail() {
 
     const tech = techDetails[slug];
 
+    useEffect(() => {
+        if (location.hash === "#tech-detail") {
+            const el = document.getElementById("tech-detail");
+            if (el) {
+                el.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    }, [location]);
+
     return (
-        <section className="tech-detail">
+        <section className="tech-detail" id={"tech-detail"}>
             <div className="container">
+                <div style={{ marginBottom: "1rem" }}>
+                    <HashLink smooth to="/#technologies" className="back-button" id={"back-button"}>
+                        ← Powrót do technologii
+                    </HashLink>
+                </div>
 
                 <h1>{tech.title}</h1>
                 {tech.subtitle && <p className="subtitle">{tech.subtitle}</p>}

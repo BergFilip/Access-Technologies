@@ -72,4 +72,19 @@
       }
     }
   }
+  .back-button {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+
+  .back-button:hover {
+    background-color: #ddd;
+  }
 }
+

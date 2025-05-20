@@ -3,7 +3,6 @@ import Header from './components/Header.tsx'
 import Footer from './components/Footer.tsx'
 import { Route, Routes } from "react-router-dom";
 import TechDetail from "./sites/TechDetail";
-import "./styles/sites/TechDetail.scss";
 
 function App() {
   return (

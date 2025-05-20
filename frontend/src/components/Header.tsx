@@ -1,4 +1,5 @@
 import "../styles/components/Header.scss"
+import { HashLink } from "react-router-hash-link";
 
 function Header(){
     return (
@@ -9,22 +10,22 @@ function Header(){
             <nav className="header__nav">
                 <ul>
                     <li>
-                        <div><a href="/">Główna</a></div>
+                        <div><HashLink smooth to="/#start">Główna</HashLink></div>
                     </li>
                     <li>
-                        <div><a href="/#services">Usługi</a></div>
+                        <div><HashLink smooth to="/#services">Usługi</HashLink></div>
                     </li>
                     <li>
-                        <div><a href="/#about">O nas</a></div>
+                        <div><HashLink smooth to="/#about">O nas</HashLink></div>
                     </li>
                     <li>
-                        <div><a href="/#technologies">Technologie</a></div>
+                        <div><HashLink smooth to="/#technologies">Technologie</HashLink></div>
                     </li>
                     <li>
-                        <div><a href="/#realizations">Realizacje</a></div>
+                        <div><HashLink smooth to="/#realizations">Realizacje</HashLink></div>
                     </li>
                     <li>
-                        <div><a href="/#contact">Kontakt</a></div>
+                        <div><HashLink smooth to="/#contact">Kontakt</HashLink></div>
                     </li>
                 </ul>
             </nav>

@@ -6,6 +6,7 @@ import { FaIntercom } from "react-icons/fa";
 import { MdLan } from "react-icons/md";
 import { PiPlugDuotone } from "react-icons/pi";
 import { IoIosLock } from "react-icons/io";
+import { HashLink } from "react-router-hash-link";
 
 const technologies = [
     {
@@ -67,13 +68,13 @@ function Technologies() {
                     Nasze instalacje opierają się na sprawdzonych i nowoczesnych rozwiązaniach.
                 </p>
 
-                <div className="tech-list">
+                <div className="tech-list" id={"tech-list"}>
                     {technologies.map((tech, idx) => (
                         <div className="tech-card" key={idx}>
                             <div className="icon">{tech.icon}</div>
                             <h3>{tech.name}</h3>
                             <p>{tech.short}</p>
-                            <Link to={`/technologie/${tech.slug}`} className="more-link">
+                            <Link to={`/technologie/${tech.slug}/#tech-detail`} className="more-link">
                                 Dowiedz się więcej →
                             </Link>
                         </div>
