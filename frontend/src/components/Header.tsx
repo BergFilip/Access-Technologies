@@ -1,11 +1,12 @@
 import "../styles/components/Header.scss"
 import { HashLink } from "react-router-hash-link";
+import logo from '../assets/Logo.png'
 
 function Header(){
     return (
         <header className="header">
             <div className="header__logo">
-                <img src="frontend/src/assets/Logo.png" alt="AccessTechnologies Logo"/>
+                <img src={logo} alt="AccessTechnologies Logo"/>
             </div>
             <nav className="header__nav">
                 <ul>

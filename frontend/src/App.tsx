@@ -10,9 +10,9 @@ function App() {
           <main className="main-container">
               <Header/>
               <Routes>
-                  <Route path="/" element={<Home/>}/>
-                  <Route path="/home" element={<Home/>}/>
-                  <Route path="/technologie/:slug" element={<TechDetail />} />
+                  <Route path="/*" element={<Home/>}/>
+                  <Route path="/*/home" element={<Home/>}/>
+                  <Route path="/*/technologie/:slug" element={<TechDetail />} />
               </Routes>
           </main>
           <Footer/>

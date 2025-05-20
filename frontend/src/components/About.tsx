@@ -1,4 +1,5 @@
 import "../styles/components/About.scss"
+import logo from '../assets/Logo.png'
 
 function About() {
     return (
@@ -31,7 +32,7 @@ function About() {
                 </div>
 
                 <div className="about__image">
-                    <img src="/src/assets/Logo.png" alt="O nas"/>
+                    <img src={logo} alt="O nas"/>
                 </div>
             </div>
         </section>

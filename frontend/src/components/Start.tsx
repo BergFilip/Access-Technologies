@@ -1,21 +1,24 @@
 import { useState, useEffect } from "react";
 import "../styles/components/Start.scss";
+import start1 from '../assets/start1.jpg'
+import start2 from '../assets/start2.webp'
+import start3 from '../assets/start3.jpg'
 
 const slides  = [
     {
         h1: "Profesjonalny montaż systemów bezpieczeństwa",
         h2: "Dla domu i firmy",
-        bg: "./frontend/src/assets/start1.jpg",
+        bg: start1,
     },
     {
         h1: "Nowoczesne rozwiązania zabezpieczeń",
         h2: "Skrojone na miarę Twoich potrzeb",
-        bg: "./frontend/src//assets/start2.webp",
+        bg: start2,
     },
     {
         h1: "Monitoring 24/7 z gwarancją jakości",
         h2: "Bezpieczeństwo, na które możesz liczyć",
-        bg: "./frontend/src//assets/start3.jpg",
+        bg: start3,
     },
 ];
 

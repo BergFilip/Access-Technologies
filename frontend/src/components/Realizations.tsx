@@ -3,24 +3,25 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import start2 from '../assets/start2.webp'
 
 import "../styles/components/Realizations.scss";
 
 const realizations = [
     {
-        image: "../src/assets/start2.webp",
+        image: start2,
         description: "Montaż systemu alarmowego w domu jednorodzinnym – Poznań",
     },
     {
-        image: "../src/assets/start2.webp",
+        image: start2,
         description: "Instalacja monitoringu CCTV w hali przemysłowej – Swarzędz",
     },
     {
-        image: "../src/assets/start2.webp",
+        image: start2,
         description: "Kompleksowa automatyka bramy – dom prywatny – Luboń",
     },
     {
-        image: "../src/assets/start2.webp",
+        image: start2,
         description: "System kontroli dostępu i LAN w biurowcu – Poznań",
     },
 ];
