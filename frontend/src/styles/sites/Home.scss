@@ -1,0 +1,31 @@
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0077cc, #00aaff);
+  color: #fff;
+
+  &__content {
+    max-width: 800px;
+    padding: 2rem;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      opacity: 0.9;
+    }
+  }
+}
+#servi
+#about,
+#technologies,
+#realizations,
+#contact {
+  scroll-margin-top: 11vh;
+}
