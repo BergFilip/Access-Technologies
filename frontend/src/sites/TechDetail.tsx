@@ -2,12 +2,13 @@ import { useParams, useLocation  } from "react-router-dom";
 import { useEffect } from "react";
 import { HashLink,  } from "react-router-hash-link";
 import "../styles/sites/TechDetail.scss";
+import start1 from '../assets/start1.jpg'
 
 const techDetails = {
     ssw: {
         title: "SSW – Systemy Sygnalizacji Włamania",
         subtitle: "Bezpieczeństwo, na którym możesz polegać",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "Access Technologies oferuje kompleksowe systemy sygnalizacji włamania (SSW), które stanowią pierwszą linię obrony przed nieautoryzowanym dostępem do budynków mieszkalnych, komercyjnych i przemysłowych.",
             "Nasze instalacje alarmowe to zaawansowane technologicznie rozwiązania, które natychmiast wykrywają wszelkie próby wtargnięcia, minimalizując ryzyko strat i zwiększając bezpieczeństwo użytkowników.",
@@ -26,7 +27,7 @@ const techDetails = {
     cctv: {
         title: "CCTV – Telewizja Przemysłowa",
         subtitle: "Stały nadzór, pełna kontrola",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "W Access Technologies projektujemy i wdrażamy nowoczesne systemy monitoringu wizyjnego (CCTV), które umożliwiają ciągły nadzór nad mieniem i otoczeniem.",
             "Nasze rozwiązania zwiększają poziom bezpieczeństwa zarówno w obiektach prywatnych, jak i komercyjnych, umożliwiając rejestrację i analizę obrazu w czasie rzeczywistym.",
@@ -44,7 +45,7 @@ const techDetails = {
     skd: {
         title: "SKD – Systemy Kontroli Dostępu",
         subtitle: "Pełna kontrola nad ruchem osób",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "Systemy Kontroli Dostępu (SKD) wdrażane przez Access Technologies pozwalają na precyzyjne zarządzanie ruchem osób w budynkach i pomieszczeniach o różnym poziomie dostępu.",
             "Nasze rozwiązania zwiększają bezpieczeństwo obiektów, eliminując ryzyko nieautoryzowanego wejścia i umożliwiając rejestrację wszystkich zdarzeń wejścia i wyjścia.",
@@ -62,7 +63,7 @@ const techDetails = {
     lan: {
         title: "LAN – Sieci Komputerowe",
         subtitle: "Niezawodna infrastruktura Twojej komunikacji",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "Access Technologies projektuje i wdraża nowoczesne lokalne sieci komputerowe (LAN), będące podstawą działania współczesnych firm, instytucji i domów inteligentnych.",
             "Budujemy infrastrukturę, która zapewnia stabilne, szybkie i bezpieczne przesyłanie danych – zarówno w nowopowstałych, jak i modernizowanych obiektach.",
@@ -80,7 +81,7 @@ const techDetails = {
     ssp: {
         title: "SSP – Systemy Przeciwpożarowe",
         subtitle: "Szybka reakcja – maksymalne bezpieczeństwo",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "Systemy Sygnalizacji Pożaru (SSP) to kluczowy element ochrony życia i mienia. W Access Technologies projektujemy i wdrażamy rozwiązania, które natychmiast wykrywają zagrożenie pożarem i uruchamiają odpowiednie procedury alarmowe.",
             "Nasze systemy są zgodne z obowiązującymi normami i mogą być integrowane z innymi instalacjami bezpieczeństwa: monitoringiem, kontrolą dostępu czy systemem oddymiania.",
@@ -98,7 +99,7 @@ const techDetails = {
     elektryczne: {
         title: "Instalacje Elektryczne",
         subtitle: "Bezpieczne zasilanie każdej inwestycji",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "Access Technologies oferuje kompleksowe usługi z zakresu instalacji elektrycznych – od projektowania po realizację i odbiory techniczne.",
             "Realizujemy zarówno instalacje w nowoczesnych budynkach, jak i modernizacje istniejących systemów. Gwarantujemy bezpieczeństwo, zgodność z normami i wieloletnią trwałość.",
@@ -116,7 +117,7 @@ const techDetails = {
     domofony: {
         title: "Domofony i Wideodomofony",
         subtitle: "Bezpieczna komunikacja na wejściu",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "Dostarczamy nowoczesne systemy domofonowe i wideodomofonowe, które zwiększają bezpieczeństwo i komfort użytkowników.",
             "Możliwość zdalnej weryfikacji osób próbujących wejść do budynku pozwala ograniczyć dostęp osobom nieupoważnionym.",
@@ -134,7 +135,7 @@ const techDetails = {
     "automatyka-bram": {
         title: "Automatyka Bram",
         subtitle: "Komfort i bezpieczeństwo w codziennym użytkowaniu",
-        image: "../src/assets/start1.jpg",
+        image: start1,
         content: [
             "Access Technologies montuje i integruje systemy automatyki do bram wjazdowych, garażowych i szlabanów.",
             "Dzięki nowoczesnym napędom i sterownikom zapewniamy wygodę użytkowania, bezpieczeństwo oraz pełną kontrolę dostępu.",
