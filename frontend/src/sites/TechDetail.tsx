@@ -173,7 +173,7 @@ function TechDetail() {
         <section className="tech-detail" id={"tech-detail"}>
             <div className="container">
                 <div style={{ marginBottom: "1rem" }}>
-                    <HashLink smooth to="/#technologies" className="back-button" id={"back-button"}>
+                    <HashLink smooth to="/Access-Technologies/#technologies" className="back-button" id={"back-button"}>
                         ← Powrót do technologii
                     </HashLink>
                 </div>

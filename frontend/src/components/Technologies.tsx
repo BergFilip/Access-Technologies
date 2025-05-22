@@ -74,7 +74,7 @@ function Technologies() {
                             <div className="icon">{tech.icon}</div>
                             <h3>{tech.name}</h3>
                             <p>{tech.short}</p>
-                            <Link to={`/technologie/${tech.slug}/#tech-detail`} className="more-link">
+                            <Link to={`/Access-Technologies/technologie/${tech.slug}/#tech-detail`} className="more-link">
                                 Dowiedz się więcej →
                             </Link>
                         </div>

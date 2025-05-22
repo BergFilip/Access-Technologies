@@ -11,22 +11,22 @@ function Header(){
             <nav className="header__nav">
                 <ul>
                     <li>
-                        <div><HashLink smooth to="/#start">Główna</HashLink></div>
+                        <div><HashLink smooth to="/Access-Technologies/#start">Główna</HashLink></div>
                     </li>
                     <li>
-                        <div><HashLink smooth to="/#services">Usługi</HashLink></div>
+                        <div><HashLink smooth to="/Access-Technologies/#services">Usługi</HashLink></div>
                     </li>
                     <li>
-                        <div><HashLink smooth to="/#about">O nas</HashLink></div>
+                        <div><HashLink smooth to="/Access-Technologies/#about">O nas</HashLink></div>
                     </li>
                     <li>
-                        <div><HashLink smooth to="/#technologies">Technologie</HashLink></div>
+                        <div><HashLink smooth to="/Access-Technologies/#technologies">Technologie</HashLink></div>
                     </li>
                     <li>
-                        <div><HashLink smooth to="/#realizations">Realizacje</HashLink></div>
+                        <div><HashLink smooth to="/Access-Technologies/#realizations">Realizacje</HashLink></div>
                     </li>
                     <li>
-                        <div><HashLink smooth to="/#contact">Kontakt</HashLink></div>
+                        <div><HashLink smooth to="/Access-Technologies/#contact">Kontakt</HashLink></div>
                     </li>
                 </ul>
             </nav>
