@@ -7,8 +7,8 @@ import TechDetail from "./sites/TechDetail";
 function App() {
   return (
       <div className="container">
+          <Header/>
           <main className="main-container">
-              <Header/>
               <Routes>
                   <Route path="/Access-Technologies" element={<Home/>}/>
                   <Route path="/Access-Technologies/home" element={<Home/>}/>

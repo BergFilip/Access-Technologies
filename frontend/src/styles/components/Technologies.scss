@@ -55,16 +55,92 @@
         color: #666;
       }
     }
-  }
-  .more-link {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #1f72ff;
-    text-decoration: none;
-    font-weight: bold;
 
-    &:hover {
-      text-decoration: underline;
+    .more-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #1f72ff;
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+
+// === RESPONSYWNOŚĆ ===
+
+@media (max-width: 1024px) {
+  .technologies {
+    .container {
+      h2 {
+        font-size: 2.2rem;
+      }
+
+      .intro {
+        font-size: 1rem;
+      }
+
+      .tech-card {
+        width: 45%;
+        padding: 1.5rem;
+
+        .icon {
+          font-size: 2.5rem;
+        }
+
+        h3 {
+          font-size: 1.1rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .technologies {
+    .container {
+      .tech-card {
+        width: 100%;
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .technologies {
+    .container {
+      h2 {
+        font-size: 2rem;
+      }
+
+      .intro {
+        font-size: 0.95rem;
+      }
+
+      .tech-card {
+        padding: 1.25rem;
+
+        .icon {
+          font-size: 2.2rem;
+        }
+
+        h3 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: 0.85rem;
+        }
+      }
     }
   }
 }

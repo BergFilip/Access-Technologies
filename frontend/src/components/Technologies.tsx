@@ -6,7 +6,6 @@ import { FaIntercom } from "react-icons/fa";
 import { MdLan } from "react-icons/md";
 import { PiPlugDuotone } from "react-icons/pi";
 import { IoIosLock } from "react-icons/io";
-import { HashLink } from "react-router-hash-link";
 
 const technologies = [
     {

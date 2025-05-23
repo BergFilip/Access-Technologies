@@ -59,12 +59,100 @@
 
   .about__image {
     flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
 
     img {
-      width: 150%;
+      width: 100%;
+      max-width: 450px;
       border-radius: 10px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       object-fit: cover;
+    }
+  }
+}
+
+// === RESPONSYWNOŚĆ ===
+
+@media (max-width: 1024px) {
+  .about {
+    .about__text {
+      h2 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .about__facts .fact h3 {
+      font-size: 1.8rem;
+    }
+
+    .about__facts .fact p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .about__text {
+      flex: 1 1 100%;
+    }
+
+    .about__image {
+      flex: 1 1 100%;
+      margin-top: 2rem;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .about__facts {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about{
+    .about__text {
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+
+    .about__facts {
+      gap: 1rem;
+
+      .fact {
+        padding: 0.8rem 1rem;
+
+        h3 {
+          font-size: 1.6rem;
+        }
+
+        p {
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    .about__image img {
+      width: 90%;
     }
   }
 }

@@ -24,7 +24,7 @@
 
     p {
       margin: 0;
-      color: #aaa;
+      color: #ddd;
       font-size: 0.9rem;
     }
   }
@@ -44,7 +44,7 @@
       font-size: 0.95rem;
 
       a {
-        color: #ccc;
+        color: #ddd;
         text-decoration: none;
         transition: color 0.2s;
 
@@ -58,7 +58,7 @@
     a {
       display: inline-block;
       margin-right: 1.2rem;
-      color: #ccc;
+      color: #ddd;
       text-decoration: none;
       font-size: 0.95rem;
       transition: color 0.2s;
@@ -90,6 +90,142 @@
       margin-left: 0.5rem;
       color: green;
       font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    .footer__info {
+      margin-right: 2rem;
+
+      h3 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+
+    .footer__contact {
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      .footer__address {
+        h4 {
+          font-size: 1.1rem;
+        }
+
+        p {
+          font-size: 0.95rem;
+        }
+      }
+
+      .footer__phone-email {
+        h4 {
+          font-size: 1.1rem;
+        }
+
+        p {
+          font-size: 0.95rem;
+        }
+      }
+
+      .footer__map {
+        width: 20%;
+      }
+
+      .footer__social {
+        h4 {
+          font-size: 1.1rem;
+        }
+
+        p {
+          font-size: 0.95rem;
+        }
+      }
+    }
+
+    .footer__map {
+      width: 100%;
+
+      iframe {
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1120px) {
+  .footer {
+    padding: 2rem 1rem;
+    height: auto;
+
+    &__content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+    }
+
+    &__info {
+      margin: 0 0 1rem 0;
+      h3{
+        font-size: 1.5rem;
+      }
+      p{
+        font-size: 0.9rem;
+      }
+    }
+
+    &__contact {
+      flex-direction: column;
+      gap: 2rem;
+      h4{
+        font-size: 1.1rem;
+      }
+      p{
+        font-size: 0.95rem;
+      }
+    }
+
+
+    .footer__map {
+      width: 100%;
+      iframe {
+        width: 90vw;
+        height: 180px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    padding: 1.5rem 1rem;
+
+    &__info h3 {
+      font-size: 1.2rem;
+    }
+
+    &__info p {
+      font-size: 0.8rem;
+    }
+
+    &__contact p,
+    &__contact a {
+      font-size: 0.85rem;
+    }
+
+    .footer__map iframe {
+      height: 150px;
+      width: 90vw;
+    }
+
+    .nip {
+      font-size: 0.85rem;
     }
   }
 }
