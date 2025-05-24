@@ -7,12 +7,11 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer__content">
-                <div className="footer__info">
-                    <h3>AccessTechnologies</h3>
-                    <p>© {new Date().getFullYear()} All rights reserved.</p>
-                </div>
-
                 <div className="footer__contact">
+                    <div className="footer__info">
+                        <h3>AccessTechnologies</h3>
+                        <p>© {new Date().getFullYear()} All rights reserved.</p>
+                    </div>
                     <div className="footer__address">
                         <h4>Adres</h4>
                         <p>ul. Łanowa 19E<br/>62-004 Kicin<br/>Polska</p>
