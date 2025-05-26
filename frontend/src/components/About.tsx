@@ -21,11 +21,11 @@ function About() {
                             <p>Rok założenia</p>
                         </div>
                         <div className="fact">
-                            <h3>500+</h3>
+                            <h3>1000+</h3>
                             <p>Zrealizowanych zleceń</p>
                         </div>
                         <div className="fact">
-                            <h3>98%</h3>
+                            <h3>100%</h3>
                             <p>Poziom satysfakcji klientów</p>
                         </div>
                     </div>
