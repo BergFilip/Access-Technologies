@@ -76,7 +76,7 @@ const ContactForm = () => {
                     <i className="fa-solid fa-map"></i>
                     <div className="icons_contact">
                         <strong>Lokalizacja</strong>
-                         Kicin 62-004 ul. Łanowa 19E
+                        ul. Łanowa 19E <br /> 62-004 Kicin
                     </div>
                 </div>
             </div>
