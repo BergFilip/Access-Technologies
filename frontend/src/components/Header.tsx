@@ -11,7 +11,7 @@ function Header(){
     return (
         <header className="header">
             <div className="header__logo">
-                <img src={logo} alt="AccessTechnologies Logo"/>
+                <HashLink smooth to="/Access-Technologies/#start" onClick={() => setMenuOpen(false)}><img src={logo} alt="AccessTechnologies Logo"/></HashLink>
             </div>
 
             <div className="burger" onClick={toggleMenu}>
@@ -22,7 +22,6 @@ function Header(){
 
             <nav className={`header__nav ${menuOpen ? "mobile-visible" : "mobile-hidden"}`}>
                 <ul>
-                    <li><div><HashLink smooth to="/Access-Technologies/#start" onClick={() => setMenuOpen(false)}>Główna</HashLink></div></li>
                     <li><div><HashLink smooth to="/Access-Technologies/#services" onClick={() => setMenuOpen(false)}>Usługi</HashLink></div></li>
                     <li><div><HashLink smooth to="/Access-Technologies/#about" onClick={() => setMenuOpen(false)}>O nas</HashLink></div></li>
                     <li><div><HashLink smooth to="/Access-Technologies/#technologies" onClick={() => setMenuOpen(false)}>Technologie</HashLink></div></li>
