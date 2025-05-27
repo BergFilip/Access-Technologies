@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     gap: 0rem;
     justify-content: space-around;
+    max-height: 80%;
   }
 
   &__info {
@@ -29,9 +30,14 @@
 
   &__contact {
     flex: 4 1 400px;
+    max-height: 25vh;
     display: flex;
     justify-content: space-around;
     gap: 3rem;
+
+    div{
+      max-height: 80%;
+    }
 
     h4 {
       margin-bottom: 0.75rem;
@@ -68,11 +74,13 @@
       }
     }
   }
+
+
   .footer__map {
     width: 30%;
     iframe {
       border-radius: 8px;
-      max-height: 80%;
+      max-height: 100%;
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     }
   }
@@ -168,6 +176,7 @@
       align-items: center;
       text-align: center;
       gap: 2rem;
+      max-height: unset;
     }
 
     &__info {
@@ -183,6 +192,7 @@
     &__contact {
       flex-direction: column;
       gap: 2rem;
+      max-height: unset;
       h4{
         font-size: 1.1rem;
       }
